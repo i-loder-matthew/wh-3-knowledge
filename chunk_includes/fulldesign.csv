@@ -1,0 +1,37 @@
+﻿item,ContextType,wh-word,Option1,Option2,ContextText,InfoState
+1,expert,quoi,On va manger quoi ce soir?,Qu'est-ce qu'on va manger ce soir,"Un fils, à son père qui rentre du marché :","Vu que tu as fait les courses pour le dîner, dis-moi ..."
+2,non-expert,quoi,On va manger quoi ce soir?,Qu'est-ce qu'on va manger ce soir,"Un fils, à son père qui rentre du boulot :","Vu que j'ai super faim, dis-moi ..."
+3,expert,oú,"Elles sont oú, les clés?","Où elles sont, les clés?",Une femme qui cherche les clés de la voiture à son mari :,"Comme tu as rangé la voiture hier soir, dis-moi ..."
+4,non-expert,oú,"Elles sont oú, les clés?","Où elles sont, les clés?",Une femme qui cherche les clés de la voiture à son mari :,"Comme je suis super pressée, dis-moi ..."
+5,expert,combien,Ça coute à peu près combien une voiture comme ca?,Combien ça coute à peu près  une voiture comme ça?,Jean à son amie Margot qui a acheté une Honda Civic :,"Comme tu viens d'en acheter une, au fait ..."
+6,non-expert,combien,Ça coute à peu près combien une voiture comme ça?,Combien ça coute à peu près  une voiture comme ça?,"Jean, qui montre une Honda Civic dans la rue à son amie Margot :","Comme j'ai vraiment besoin d'en acheter une, au fait ..."
+7,expert,quoi,"Il a fait quoi, le maire?","Qu'est-ce qu'il a fait, le maire?","À propos du dernier scandale à la mairie, Jean à son ami qui est conseiller municipale","Vu qu'ils parlent tous de ça, dis-moi ..."
+8,non-expert,quoi,"Il a fait quoi, le maire?","Qu'est-ce qu'il a fait, le maire?","À propos du dernier scandale à la mairie, Jean à son copain dans un bar:","Vu qu'ils parlent tous de ça, dis-moi ..."
+9,expert,oú,"Il est où, ce livre?","Où est il, ce livre?",À la bibliothèque: Amélie qui cherche le livre Les Misérables à son ami Marc:,"Comme tu bosses ici, au fait ..."
+10,non-expert,oú,"Il est où, ce livre?","Où est il, ce livre?",À la bibliothèque: Amélie qui cherche le livre Les Misérables à son ami Marc:,"Comme le prof veut qu'on le lise, au fait ..."
+11,expert,combien,"Il coute à peu près combien, ce jean?","Combien il coute à peu près, ce jean?","Nicole à son ami Marc, qui travaille dans le magazin:","Vu que c'est dans ton rayon, au fait ..."
+12,non-expert,combien,"Il coute à peu près combien, ce jean?","Combien il coute à peu près, ce jean?","Nicole, qui montre un jean à son ami Marc dans la vitrine :",Vu qu'il serait parfait pour ma soirée de samedi au fait ...
+13,expert,quoi,On a quoi à reviser pour le prochain examen?,Qu'est-ce qu'on a à reviser pour le prochain examen?,"Adele à son amie Marie, qui prends des bonnes notes dans le cours:","Adele: Comme je suis sûre que tu as bien écouté, au fait ..."
+14,non-expert,quoi,On a quoi à reviser pour le prochain examen?,Qu'est-ce qu'on a à reviser pour le prochain examen?,"Marie à son amie Adele, qui est parfois distraite:","Marie: Comme j'étais pas là au dernier cours, au fait ..."
+15,expert,oú,Il s'arrête où le train de dix heures?,Où il s'arrête le train de dix heures?,Antoni à son ami Jean qui prend souvent le train: ,"Vu que tu as les horaires dans la main, dis-moi ..."
+16,non-expert,oú,Il s'arrête où le train de dix heures?,Où il s'arrête le train de dix heures?,Antoni à son ami Jean devant la gare:,"Vu qu'il faut que je parte toute suite, dis-moi ..."
+17,expert,combien,"Il coute combien, le plat du jour?","Combien il coute, le plat du jour?",Deux amis dans un restaurant:,"Vu que tu viens ici tous les jours, dis-moi ..."
+18,non-expert,combien,"Il coute combien, le plat du jour?","Combien il coute, le plat du jour?",Deux amis dans un restaurant:,Vu que j'ai pas trop faim ...
+19,formal,,Est-ce qu'il y avait pas d’etudiants de notre department à cette conference,Est-ce qu'il n’y avait aucun etudiant de notre department à cette conference.,Un professeur s’addressant à son collègue du départment qui revient d’une conférence :,"Comme je n'étais pas là, dis-moi ..."
+20,informal,,Est-ce qu'il y avait pas d’etudiants de notre department à cette conference,Est-ce qu'il n’y avait aucun etudiant de notre department à cette conference.,Un étudiant s'adressant à un ami en revenant d'une conférence : ,"Comme je n'étais pas là, dis-moi ..."
+21,formal,,Vous n'avez pas vu de drapeaux sur la place?,Vous n'avez vu aucun drapeux sur la place?,Le maire du village s'adressant a un employé : ,"Vu que vous étiez là hier soir, dis-moi ..."
+22,informal,,Tu n'as pas vu de drapeaux sur la place?,Tu n'as vu aucun drapeux sur la place?,Un papa s'adressant à son enfant : ,"Vu que tu étais là hier soir, dis-moi ..."
+23,formal,,Vous n'avez aucun devoir à faire pendant les vacances?,Vous n'avez pas de devoir à faire pendant les vacances?,Un professeur s'addressant a ses élèves :,"Comme je ne me souviens pas, au fait ..."
+24,informal,,Tu n'as aucun devoir à faire pendant les vacances?,Tu n'as pas de devoir à faire pendant les vacances?,Un mère s'adressant a son enfant :,"Comme je veux verifier, au fait ..."
+25,formal,,Merci de ne faire aucun bruit.,Merci de ne pas faire de bruit.,Une affiche sur la porte d'un laboratoire :,Il y des expériences actives ...
+26,informal,,Merci de ne faire aucun bruit.,Merci de ne pas faire de bruit.,Une maman a ses enfants devant leur père qui dort :,Comme votre père dort ...
+27,formal,,Tout ses amis sont invités?,Ses amis sont tous invités?,Une collègue responsable d'organiser une fete pour la retraite d'un des ses collegues :,"Comme je veux verifier, dis-moi ..."
+28,informal,,Tout ses amis sont invités?,Ses amis sont tous invités?,Une maman à son mari à propos de l'anniversaire de leur fils :,"Comme je veux verifier, dis-moi ..."
+29,formal,,Toutes les copies sont rammassées?,Les copies sont toutes rammassées?,Un professeur a son assistant a la fin d'un examen :,"Comme beaucoup d'élèves ont terminé tôt, dis-moi ..."
+30,informal,,Toutes les copies sont rammassées?,Les copies sont toutes rammassées?,Un élève s'addressant a son copain en sortant d'un examen : ,"Comme ça était très difficile, dis-moi ..."
+31,formal,,Toutes les tables sont décorées?,Les tables sont tous décorées?,Un hotelier à son collègue :,Vu que l'événement commence très tôt ...
+32,informal,,Toutes les tables sont décorées?,Les tables sont tous décorées?,Une maman a son fils le jour de son anniversaire :,Vu que l'événement commence très tôt ...
+33,formal,,Toutes les lumières sont éteintes?,Les lumières sont toutes éteintes?,Le directeur de la banque à son employé :,"Comme nous partons, au fait ..."
+34,informal,,Toutes les lumières sont éteintes?,Les lumières sont toutes éteintes?,Un père à son fils alors qu'ils quittent la maison : ,"Comme on part, au fait ..."
+35,formal,,Tous les livres sont rendus?,Les livres sont tous rendus?,Un bibliothécaire à son assistant à la fin du semestre:,"Comme les vancances commencent la semaine prochaine, dis-moi ..."
+36,informal,,Tous les livres sont rendus?,Les livres sont tous rendus?,Un élève à son copain à la fin du semestre:,"Comme les vancances commencent la semaine prochaine, dis-moi ..."

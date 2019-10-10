@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<title> Consent </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    body {
+      background: url("http://s12.postimg.org/cosr5owot/QBack.png");
+      text-align: left;
+      font-size: 88%;
+      font-family: Century Gothic;
+      text-align: left;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .body{
+      width: 100%;
+    }
+
+    form{
+      margin: 0 auto;
+      width: 90%;
+      clear: both;
+      padding: 2%;
+      border: 1px;
+      border-style: solid;
+      box-shadow: 10px 10px 5px #888888;
+      background-color: white;
+    }
+
+    input[type=submit] {
+      width: 135px;
+      height: 70px;
+      cursor:pointer;
+    }
+  </style>
+</head>
+
+
+<body class="body">
+
+<!--
+BEFORE THE PAGE CONTENT
+You might want to cache the images you are using in the experiment
+if timings are going to be recorded during the experiment.
+Below is an example of how to load an image without showing it.
+-->
+<div style="display:none">
+  <!-- List images here in the same syntax -->
+  <!-- <img src = "___image src____" /> -->
+  <img src = "http://www.sjsu.edu/linguistics/pics/lld_wordle_660px.jpg" />
+</div>
+
+
+
+<!-- Start of the actual, visible body of the file -->
+<form style="width: 40em;">
+<h1>Bienvenue!</h1>
+<p>
+Vous êtes invités à participer à une étude dirigée par Viviane Déprez, directrice de recherche au CNRS et professeur à l'Université de Rutgers. Le but de cette étude est de mieux comprendre la préférence que les locuteurs du français de tous les jours pourraient avoir dans le choix de phrases qui ont un sens quasi identique selons leur âge et leur origine régionale ou sociale.
+</p>
+<p>
+60 sujets participeront à cette étude. Cette étude est confidentielle, bien que les informations de cette recherche incluront quelques données personnelles. Ces informations seront conservées de telle façon qu’un lien entre votre identité et vos réponses sera impossible. Les informations personnelles incluront votre âge, votre genre, et votre identité linguistique. Ces informations confidentielles seront conservées au Laboratoire de Syntaxe Comparative et Expérimentale. L'équipe de recherche et l’Institutional Review Board à Rutgers sont les seuls partis qui auront accès à ces données sauf si mandaté par la loi. Seuls des résultats de groupe seront utilisés, si cette étude donne lieu à une publication où une présentation à une présentation professionnelle, seul des résultats de groupe seront utilisés. La participation à cette étude ne présente aucun risque anticipé.
+</p>
+<p>
+La participation à cette étude est volontaire. C'est vous qui décidez de participer ou non et vous pouvez vous retirer à n'importe quel moment sans conséquence. Vous êtes libre de ne pas répondre aux questions qui vous dérangent.
+</p>
+<p>
+Les résultats de cette expérience ne vous seront communiqués que sur requête expresse.
+</p>
+
+<!--
+<p>
+<b>Description de l'étude : </b><br>L'expérience inclut 32 situations. Pour chacune de ces situations, vous devez choisir entre deux phrases, celle qui selon vous correspond le mieux à ce qu'un locuteur du français quotidien dirait dans cette situation.
+</p>
+<p>
+Lisez le contexte, puis les phrases et faîtes votre choix en cliquant sur les boutons pertinents.
+Cliquez SUIVANT pour continuer.
+</p>
+<p>
+Avant de commencer l'expérience, vous aurez deux essais pour vous entraîner.
+</p>
+<p>
+Quand vous aurez fini les questions, merci de remplir un bref questionnaire démographique. Cliquez SOUMETTRE VOS RÉPONSES pour finir l'expérience.
+</p>
+<p>
+<b>Si vous avez des questions </b><br>Vous pouvez contacter les chercheurs à deprez@linguistics.rutgers.edu.
+</p>
+
+
+consent validation -->
+<table>
+<tr>
+  <td><i>J'ai lu l'information ci-dessus</i></td>
+</tr>
+<tr>
+<td><table id="Scaling">
+	<tr>
+		 <td><input id="consent-yes" type="radio" name="consent" value="oui" class="obligatory"/><label>Je consens</label></td>
+		 <td><input id="consent-no" type="radio" name="consent" value="non" class="obligatory"/><label>Je ne consens pas</label></td>
+	</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="2"><label class="error" for="consent"></label></td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>

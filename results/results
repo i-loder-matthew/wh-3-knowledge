@@ -1,0 +1,181 @@
+#
+# Results on Thursday October 10 2019 01:51:30 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
+# Design number was non-random = 0
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1570672290,57312a9137e174ca139d395edf0690a0,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1570672264774,NULL
+1570672290,57312a9137e174ca139d395edf0690a0,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1570672275216,NULL
+#
+# Results on Thursday October 10 2019 02:06:58 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
+# Design number was non-random = 1
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1570673218,57312a9137e174ca139d395edf0690a0,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,Start,1570673194232,NULL
+1570673218,57312a9137e174ca139d395edf0690a0,PennController,0,0,unlabeled,NULL,PennController,0,_Trial_,End,1570673203518,NULL
+#
+# Results on Thursday October 10 2019 05:02:14 UTC.
+# USER AGENT: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
+# Design number was non-random = 1
+#
+# Columns below this comment are as follows:
+# 1. Time results were received.
+# 2. MD5 hash of participant's IP address.
+# 3. Controller name.
+# 4. Item number.
+# 5. Element number.
+# 6. Type.
+# 7. Group.
+# 8. PennElementType.
+# 9. PennElementName.
+# 10. Parameter.
+# 11. Value.
+# 12. EventTime.
+# 13. Comments.
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,0,0,consent,NULL,PennController,0,_Trial_,Start,1570683304640,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,0,0,consent,NULL,PennController,0,_Trial_,End,1570683307383,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,1,0,instructions,NULL,PennController,1,_Trial_,Start,1570683307386,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,1,0,instructions,NULL,PennController,1,_Trial_,End,1570683308472,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,3,0,practice1,NULL,PennController,3,_Trial_,Start,1570683308478,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,3,0,practice1,NULL,Selector,text,Selection,answer1,1570683315829,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,3,0,practice1,NULL,PennController,3,_Trial_,End,1570683315830,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,4,0,practice2,NULL,PennController,4,_Trial_,Start,1570683315834,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,4,0,practice2,NULL,Selector,text,Selection,answer1,1570683318942,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,4,0,practice2,NULL,PennController,4,_Trial_,End,1570683318944,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,40,0,experiment,NULL,PennController,41,_Trial_,Start,1570683318949,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,40,0,experiment,NULL,Selector,text,Selection,answer1,1570683325163,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,40,0,experiment,NULL,PennController,41,_Trial_,End,1570683325166,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,9,0,experiment,NULL,PennController,10,_Trial_,Start,1570683325172,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,9,0,experiment,NULL,Selector,text,Selection,answer1,1570683344139,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,9,0,experiment,NULL,PennController,10,_Trial_,End,1570683344141,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,6,0,experiment,NULL,PennController,7,_Trial_,Start,1570683344146,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,6,0,experiment,NULL,Selector,text,Selection,answer2,1570683350246,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,6,0,experiment,NULL,PennController,7,_Trial_,End,1570683350248,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,38,0,experiment,NULL,PennController,39,_Trial_,Start,1570683350252,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,38,0,experiment,NULL,Selector,text,Selection,answer2,1570683356415,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,38,0,experiment,NULL,PennController,39,_Trial_,End,1570683356417,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,31,0,experiment,NULL,PennController,32,_Trial_,Start,1570683356421,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,31,0,experiment,NULL,Selector,text,Selection,answer1,1570683378519,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,31,0,experiment,NULL,PennController,32,_Trial_,End,1570683378522,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,36,0,experiment,NULL,PennController,37,_Trial_,Start,1570683378527,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,36,0,experiment,NULL,Selector,text,Selection,answer2,1570683380963,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,36,0,experiment,NULL,PennController,37,_Trial_,End,1570683380965,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,12,0,experiment,NULL,PennController,13,_Trial_,Start,1570683380969,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,12,0,experiment,NULL,Selector,text,Selection,answer2,1570683396341,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,12,0,experiment,NULL,PennController,13,_Trial_,End,1570683396343,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,30,0,experiment,NULL,PennController,31,_Trial_,Start,1570683396348,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,30,0,experiment,NULL,Selector,text,Selection,answer2,1570683402965,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,30,0,experiment,NULL,PennController,31,_Trial_,End,1570683402967,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,16,0,experiment,NULL,PennController,17,_Trial_,Start,1570683402971,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,16,0,experiment,NULL,Selector,text,Selection,answer2,1570683414319,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,16,0,experiment,NULL,PennController,17,_Trial_,End,1570683414321,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,28,0,experiment,NULL,PennController,29,_Trial_,Start,1570683414325,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,28,0,experiment,NULL,Selector,text,Selection,answer1,1570683422663,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,28,0,experiment,NULL,PennController,29,_Trial_,End,1570683422664,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,35,0,experiment,NULL,PennController,36,_Trial_,Start,1570683422668,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,35,0,experiment,NULL,Selector,text,Selection,answer2,1570683426757,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,35,0,experiment,NULL,PennController,36,_Trial_,End,1570683426759,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,39,0,experiment,NULL,PennController,40,_Trial_,Start,1570683426763,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,39,0,experiment,NULL,Selector,text,Selection,answer2,1570683429004,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,39,0,experiment,NULL,PennController,40,_Trial_,End,1570683429007,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,37,0,experiment,NULL,PennController,38,_Trial_,Start,1570683429011,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,37,0,experiment,NULL,Selector,text,Selection,answer2,1570683430396,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,37,0,experiment,NULL,PennController,38,_Trial_,End,1570683430397,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,15,0,experiment,NULL,PennController,16,_Trial_,Start,1570683430401,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,15,0,experiment,NULL,Selector,text,Selection,answer2,1570683439991,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,15,0,experiment,NULL,PennController,16,_Trial_,End,1570683439993,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,32,0,experiment,NULL,PennController,33,_Trial_,Start,1570683439998,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,32,0,experiment,NULL,Selector,text,Selection,answer2,1570683448660,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,32,0,experiment,NULL,PennController,33,_Trial_,End,1570683448662,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,17,0,experiment,NULL,PennController,18,_Trial_,Start,1570683448666,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,17,0,experiment,NULL,Selector,text,Selection,answer2,1570683466858,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,17,0,experiment,NULL,PennController,18,_Trial_,End,1570683466860,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,18,0,experiment,NULL,PennController,19,_Trial_,Start,1570683466864,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,18,0,experiment,NULL,Selector,text,Selection,answer1,1570683476884,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,18,0,experiment,NULL,PennController,19,_Trial_,End,1570683476886,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,5,0,experiment,NULL,PennController,6,_Trial_,Start,1570683476890,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,5,0,experiment,NULL,Selector,text,Selection,answer2,1570683485410,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,5,0,experiment,NULL,PennController,6,_Trial_,End,1570683485412,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,21,0,experiment,NULL,PennController,22,_Trial_,Start,1570683485416,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,21,0,experiment,NULL,Selector,text,Selection,answer2,1570683493142,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,21,0,experiment,NULL,PennController,22,_Trial_,End,1570683493143,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,25,0,experiment,NULL,PennController,26,_Trial_,Start,1570683493147,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,25,0,experiment,NULL,Selector,text,Selection,answer1,1570683501888,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,25,0,experiment,NULL,PennController,26,_Trial_,End,1570683501890,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,7,0,experiment,NULL,PennController,8,_Trial_,Start,1570683501894,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,7,0,experiment,NULL,Selector,text,Selection,answer1,1570683511434,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,7,0,experiment,NULL,PennController,8,_Trial_,End,1570683511436,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,11,0,experiment,NULL,PennController,12,_Trial_,Start,1570683511440,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,11,0,experiment,NULL,Selector,text,Selection,answer2,1570683546266,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,11,0,experiment,NULL,PennController,12,_Trial_,End,1570683546269,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,24,0,experiment,NULL,PennController,25,_Trial_,Start,1570683546274,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,24,0,experiment,NULL,Selector,text,Selection,answer1,1570683583560,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,24,0,experiment,NULL,PennController,25,_Trial_,End,1570683583562,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,10,0,experiment,NULL,PennController,11,_Trial_,Start,1570683583566,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,10,0,experiment,NULL,PennController,11,_Trial_,End,1570683591546,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,10,0,experiment,NULL,Selector,text,Selection,answer1,1570683591546,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,27,0,experiment,NULL,PennController,28,_Trial_,Start,1570683591549,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,27,0,experiment,NULL,Selector,text,Selection,answer1,1570683600987,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,27,0,experiment,NULL,PennController,28,_Trial_,End,1570683600988,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,22,0,experiment,NULL,PennController,23,_Trial_,Start,1570683600992,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,22,0,experiment,NULL,Selector,text,Selection,answer1,1570683609952,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,22,0,experiment,NULL,PennController,23,_Trial_,End,1570683609953,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,34,0,experiment,NULL,PennController,35,_Trial_,Start,1570683609957,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,34,0,experiment,NULL,Selector,text,Selection,answer2,1570683615970,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,34,0,experiment,NULL,PennController,35,_Trial_,End,1570683615972,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,13,0,experiment,NULL,PennController,14,_Trial_,Start,1570683615976,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,13,0,experiment,NULL,Selector,text,Selection,answer2,1570683625070,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,13,0,experiment,NULL,PennController,14,_Trial_,End,1570683625071,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,8,0,experiment,NULL,PennController,9,_Trial_,Start,1570683625075,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,8,0,experiment,NULL,Selector,text,Selection,answer1,1570683635296,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,8,0,experiment,NULL,PennController,9,_Trial_,End,1570683635297,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,19,0,experiment,NULL,PennController,20,_Trial_,Start,1570683635300,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,19,0,experiment,NULL,Selector,text,Selection,answer2,1570683649557,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,19,0,experiment,NULL,PennController,20,_Trial_,End,1570683649558,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,33,0,experiment,NULL,PennController,34,_Trial_,Start,1570683649562,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,33,0,experiment,NULL,Selector,text,Selection,answer2,1570683666787,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,33,0,experiment,NULL,PennController,34,_Trial_,End,1570683666788,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,26,0,experiment,NULL,PennController,27,_Trial_,Start,1570683666791,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,26,0,experiment,NULL,Selector,text,Selection,answer1,1570683672712,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,26,0,experiment,NULL,PennController,27,_Trial_,End,1570683672714,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,14,0,experiment,NULL,PennController,15,_Trial_,Start,1570683672717,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,14,0,experiment,NULL,Selector,text,Selection,answer1,1570683685723,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,14,0,experiment,NULL,PennController,15,_Trial_,End,1570683685724,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,20,0,experiment,NULL,PennController,21,_Trial_,Start,1570683685728,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,20,0,experiment,NULL,Selector,text,Selection,answer1,1570683707886,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,20,0,experiment,NULL,PennController,21,_Trial_,End,1570683707887,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,23,0,experiment,NULL,PennController,24,_Trial_,Start,1570683707892,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,23,0,experiment,NULL,Selector,text,Selection,answer1,1570683713503,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,23,0,experiment,NULL,PennController,24,_Trial_,End,1570683713506,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,29,0,experiment,NULL,PennController,30,_Trial_,Start,1570683713509,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,29,0,experiment,NULL,Selector,text,Selection,answer2,1570683719599,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,29,0,experiment,NULL,PennController,30,_Trial_,End,1570683719601,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,41,0,questionnaire,NULL,PennController,5,_Trial_,Start,1570683719605,NULL
+1570683735,57312a9137e174ca139d395edf0690a0,PennController,41,0,questionnaire,NULL,PennController,5,_Trial_,End,1570683719615,NULL
