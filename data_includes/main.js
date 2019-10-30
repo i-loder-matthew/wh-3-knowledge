@@ -210,6 +210,7 @@ PennController.Template(
 PennController("questionnaire",
   newHtml("questionnaire", "questionnaire.html")
     .print()
+    .settings.log()
   ,
   newButton("continue", "SOUMETTRE")
       .print()

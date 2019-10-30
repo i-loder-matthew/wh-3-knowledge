@@ -91,6 +91,11 @@ by_item_all = df.all2 %>%
   group_by(item) %>%
   summarise('in-situ' = mean(c1))
 
+plot1 = ggplot(data = percent_in_situ, mapping = aes(x = 'condition', y = 'in-situ')) +
+  geom_bar(stat = 'identity')
+
+plot1
+
 ## Manipulate data
 
 
