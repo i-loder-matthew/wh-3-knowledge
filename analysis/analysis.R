@@ -46,7 +46,7 @@ read.pcibex <- function(filepath, auto.colnames=TRUE, fun.col=function(col,cols)
   }
 }
 
-## Load data 
+## LOAD DATA
 
 results <- read.pcibex("results")
 
@@ -60,6 +60,8 @@ df.all <- results %>%
   ) %>%
   select(id, condition, value, item)
 
+## CLEAN UP TARGET DATA
+
 df.target <- df.all %>%
   filter(
     condition == "partial-knowledge" | condition == "no-knowledge"
@@ -70,7 +72,24 @@ df.target <- df.all %>%
 
 percent_in_situ = df.target %>%
   group_by(condition) %>%
-  summarise('c1' = mean(c1))
+  summarise('in-situ' = mean(c1))
+
+by_participant1 = df.target %>%
+  group_by(condition, id) %>%
+  summarise('in-situ' = mean(c1))
+
+by_item = df.target %>%
+  group_by(item) %>%
+  summarise('in-situ' = mean(c1))
+
+df.all2 = df.all %>%
+  mutate(
+    'c1' = value == 'answer1'
+  )
+
+by_item_all = df.all2 %>%
+  group_by(item) %>%
+  summarise('in-situ' = mean(c1))
 
 ## Manipulate data
 
