@@ -217,7 +217,7 @@ PennController("questionnaire",
       .wait()
 );
 
-newTrial("final",
+PennController("final",
   newText("Merci pour votre participation!")
     .print()
   ,
