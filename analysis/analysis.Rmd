@@ -1,0 +1,204 @@
+---
+title: "Knowledgeability (02) Analysis"
+author: "Matthew Loder"
+date: "3/18/2020"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Cleaning Scripts:
+```{r packages, include=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(data.table)
+library(gridExtra)
+library(DescTools)
+library(splines)
+library(stringr)
+library(lme4)
+library(knitr)
+  
+```
+
+## Load in data:
+```{r data, echo=FALSE}
+d.all = read.csv("exp_data.csv")
+```
+
+## Exclusions:
+
+We excluded participants who failed our initial practice question, designed to filter out nonnative speakers of French. 
+
+```{r exclusions, echo=FALSE}
+d.practice = read.csv("practice_data.csv")
+
+# Exclude participants that fail the catch question -- In the newest version of the experiment I may add two and only exclude participants that fail both
+
+d.exclusions = d.practice %>%
+  filter(condition == "practice1") %>%
+  filter(!dsq)
+
+d.all = d.all %>% filter(!(id %in% d.exclusions$id))
+
+print(paste("We excluded", length(d.exclusions$id), "participants on the basis of demonstrated non-native French."))
+
+```
+
+## The results:
+
+Below is a summary of the overall results - 
+
+```{r table1, echo = FALSE}
+
+d.target = d.all %>% filter(type == "target")
+
+percent_dsq = d.target %>% 
+  group_by(condition) %>% 
+  summarise('percent_in_situ' = mean(dsq),
+            'se' = sd(dsq)/sqrt(length(dsq)))
+
+kable(percent_dsq[,1:2], caption='Percent In-Situ by Condition')
+
+```
+
+## Analyze data:
+
+We ran a binomial linear mixed effects model, with subject and wh_word as random effects. We determined these random effects by comparing models containing random effects for item, subject and wh_word.
+
+There does not appear to be anything approaching a significant effect, nor is there a clear qualitative trend in the data.
+
+```{r, echo=FALSE}
+
+model1 = glmer(dsq ~ condition + (1|id) + (1|item) + (1|wh_word), data=d.target, family=binomial)
+
+model2 = glmer(dsq ~ condition + (1|id) + (1|item), data=d.target, family=binomial)
+
+model3 = glmer(dsq ~ condition + (1|item) + (1|wh_word), data=d.target, family=binomial)
+
+model4 = glmer(dsq ~ condition + (1|id) + (1|wh_word), data=d.target, family=binomial)
+
+```
+
+```{r}
+summary(model4)
+```
+
+
+## Exploring the data
+
+### Removing the 'quoi' cases
+
+```{r}
+d.no_quoi = d.target %>%
+  filter(wh_word != "quoi")
+
+model1.2 = glmer(dsq ~ condition + (1|id) + (1|item) + (1|wh_word), data=d.no_quoi, family=binomial)
+
+model2.2 = glmer(dsq ~ condition + (1|id) + (1|item), data=d.no_quoi, family=binomial)
+
+model3.2 = glmer(dsq ~ condition + (1|item) + (1|wh_word), data=d.no_quoi, family=binomial)
+
+model4.2 = glmer(dsq ~ condition + (1|id) + (1|wh_word), data=d.no_quoi, family=binomial)
+```
+
+```{r}
+summary(model4.2)
+```
+
+## Appendix A - Tables
+
+```{r table_whwords, echo=FALSE}
+dsq_wh = d.target %>%
+  group_by(wh_word, condition) %>%
+  summarise('percent_in_situ' = mean(dsq),
+            'se' = sd(dsq)/sqrt(length(dsq)))
+
+kable(dsq_wh[, 1:3], caption='Percent In-Situ by WH-Word and Condition')
+
+```
+
+```{r table_items, echo=FALSE}
+dsq_items = d.target %>%
+  group_by(item, condition) %>%
+  summarise('percent_in_situ' = mean(dsq),
+            'se' = sd(dsq)/sqrt(length(dsq)))
+
+kable(dsq_items[1:3], caption='Percent In-Situ by Item and Condition')
+
+```
+
+```{r table_subjects}
+dsq_subjects = d.target %>%
+  group_by(id, condition) %>%
+  summarise('percent_in_situ' = mean(dsq),
+            'se' = sd(dsq)/sqrt(length(dsq)))
+
+kable(dsq_subjects[1:3], caption='Percent In-Situ by Subject and Condition')
+```
+
+
+## Appendix B - Plots
+
+```{r plot1, echo=FALSE, fig.width=8, fig.height=5}
+
+p1 = ggplot(percent_dsq, aes(x = condition, y = percent_in_situ, fill = condition)) +
+    xlab("Condition") +
+    ylab("Percent In Situ Responses") +
+    geom_col() +
+    geom_errorbar(aes(ymin = percent_in_situ - se, ymax = percent_in_situ + se),
+                  width = 0.25) +
+    guides(col=guide_legend(title="Expr.")) +
+    ggtitle("Percent In-Situ for Partial Knowledge and No Knowledge Conditions")
+
+p1
+```
+
+```{r plot_wh, echo=FALSE, fig.width=8, fig.height=5}
+
+p2 = ggplot(dsq_wh, aes(x = wh_word, y = percent_in_situ, fill = condition)) +
+    xlab("Question Word") +
+    ylab("Percent In Situ Responses") +
+    geom_col(position=position_dodge()) +
+    # geom_errorbar(aes(ymin = percent_in_situ - se, ymax = percent_in_situ + se),
+    #             width = 0.25) +
+    guides(col=guide_legend(title="Expr.")) +
+    ggtitle("Percent In-Situ by WH-Word for Partial Knowledge and No Knowledge Conditions")
+
+p2
+
+```
+
+```{r plot_items, echo=FALSE, fig.width=8, fig.height=5}
+
+p3 = ggplot(dsq_items, aes(x = as.factor(item), y = percent_in_situ, fill = condition)) +
+    xlab("Item") +
+    ylab("Percent In Situ Responses") +
+    geom_col() +
+    geom_errorbar(aes(ymin = percent_in_situ - se, ymax = percent_in_situ + se),
+                width = 0.25) +
+    guides(col=guide_legend(title="Expr.")) +
+    ggtitle("Percent In-Situ by Item for Partial Knowledge and No Knowledge Conditions")
+
+p3
+
+```
+
+```{r plot_subjects, echo=FALSE, fig.width=8, fig.height=5}
+p4 = ggplot(dsq_subjects, aes(x = as.factor(id), y = percent_in_situ, fill = condition)) +
+    xlab("Subject ID") +
+    ylab("Percent In Situ Responses") +
+    geom_col(position=position_dodge()) +
+    # geom_errorbar(aes(ymin = percent_in_situ - se, ymax = percent_in_situ + se),
+    #             width = 0.25) +
+    guides(col=guide_legend(title="Expr.")) +
+    ggtitle("Percent In-Situ by Subject for Partial Knowledge and No Knowledge Conditions")
+
+p4
+```
+
