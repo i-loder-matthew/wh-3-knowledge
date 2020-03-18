@@ -217,8 +217,6 @@ PennController("questionnaire",
       .wait()
 );
 
-SendResults("send");
-
 PennController("final",
   newText("Merci pour votre participation!")
     .print()
