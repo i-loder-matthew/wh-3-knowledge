@@ -31,10 +31,10 @@ PennController("consent",
 
 PennController("subject_info",
     newTextInput("prolificID", "Merci d'entrer votre ProlficID : ")
-      .log()
       .lines(0)
       .size(400, 200)
       .print()
+      .settings.log()
     ,
     newButton("continue", "Cliquez suivant pour continuer")
         .print()
