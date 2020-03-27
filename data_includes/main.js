@@ -1,7 +1,7 @@
 PennController.ResetPrefix(null);
 PennController.DebugOff();
 
-PennController.Sequence("consent", "subject-info", "instructions", "practice-message", "practice1", "practice2", "experiment-message", rshuffle(rshuffle("partial-info" , "no-info"), rshuffle("partial-knowledge", "no-knowledge")), "questionnaire", "final")
+PennController.Sequence("consent", "subject_info", "instructions", "practice-message", "practice1", "practice2", "experiment-message", rshuffle(rshuffle("partial-info" , "no-info"), rshuffle("partial-knowledge", "no-knowledge")), "questionnaire", "final")
 
 PennController("consent",
   newHtml("consent", "consent.html")
