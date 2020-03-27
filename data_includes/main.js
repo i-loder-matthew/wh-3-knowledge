@@ -1,7 +1,7 @@
 PennController.ResetPrefix(null);
 PennController.DebugOff();
 
-PennController.Sequence("consent", "instructions", "practice-message", "practice1", "practice2", "experiment-message", rshuffle(rshuffle("partial-info" , "no-info"), rshuffle("partial-knowledge", "no-knowledge")), "questionnaire", "final")
+PennController.Sequence("consent", "subject-info", "instructions", "practice-message", "practice1", "practice2", "experiment-message", rshuffle(rshuffle("partial-info" , "no-info"), rshuffle("partial-knowledge", "no-knowledge")), "questionnaire", "final")
 
 PennController("consent",
   newHtml("consent", "consent.html")
@@ -27,6 +27,18 @@ PennController("consent",
   newButton("continue", "Cliquez suivant pour continuer")
     .print()
     .wait( getButton("consent-yes").test.clicked() )
+);
+
+PennController("subject_info",
+    newTextInput("prolificID", "Merci d'entrer votre ProlficID : ")
+      .log()
+      .lines(0)
+      .size(400, 200)
+      .print()
+    ,
+    newButton("continue", "Cliquez suivant pour continuer")
+        .print()
+        .wait()
 );
 
 PennController("instructions",
@@ -221,7 +233,7 @@ PennController("final",
   newText("Merci pour votre participation!")
     .print()
   ,
-  newButton("continue", "<p><a href='https://app.prolific.co/submissions/complete?cc=343D13D6'> Cliquez ici pour valider votre participation</a></p>")
+  newButton("continue", "<p><a href='https://app.prolific.co/submissions/complete?cc=5BA029FA'> Cliquez ici pour valider votre participation</a></p>")
     .print()
     .wait()
 );
