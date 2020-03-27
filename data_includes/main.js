@@ -30,7 +30,7 @@ PennController("consent",
 );
 
 PennController("subject_info",
-    newText("Merci d'entrer votre PrlificID :")
+    newText("Merci de bien vouloir entrer votre numéro d'identification de Prolific (ProlificID) :")
       .print()
     ,
     newTextInput("prolificID")
